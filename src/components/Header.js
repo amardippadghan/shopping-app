@@ -1,12 +1,10 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { Cart } from "../Context";
 import { Link } from "react-router-dom";
 
 function Header() {
   const { cart } = useContext(Cart);
-  useEffect(() => {
-    console.log("cart", cart);
-  }, [cart]);
+ 
   return (
     <div>
       <div className="navbar bg-base-100 fixed">

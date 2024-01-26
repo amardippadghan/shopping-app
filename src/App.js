@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import { useEffect } from "react";
 import axios from "axios";
 import { useReducer, useContext } from "react";
-import { Cart } from "./Context";
+
 import ProductPage from "./components/ProductPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Carts from "./components/Carts";

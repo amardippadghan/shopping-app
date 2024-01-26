@@ -3,7 +3,7 @@ import { Cart } from "../Context";
 import SingleProduct from "./SingleProduct";
 
 function Carts() {
-  const { cart, cartDispatch } = useContext(Cart);
+  const { cart } = useContext(Cart);
   console.log(cart);
   return (
     <div>
